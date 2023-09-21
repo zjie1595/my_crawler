@@ -1,9 +1,7 @@
 name: Run ikanhanman
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
 
 jobs:
   run-script:
