@@ -22,3 +22,9 @@ jobs:
 
       - name: Run script
         run: python run.py
+
+      - name: Upload output.txt
+        uses: actions/upload-artifact@v2
+        with:
+          name: 爱看韩漫
+          path: 爱看韩漫.json
