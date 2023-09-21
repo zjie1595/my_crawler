@@ -28,3 +28,4 @@ jobs:
         with:
           name: 爱看韩漫
           path: 爱看韩漫.json
+          retention-days: 90
